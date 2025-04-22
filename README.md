@@ -1,30 +1,105 @@
 # New Project
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+# ☁️ Cloud Security Implementation: IAM Hardening in AWS & Azure
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/satender-kumars-projects-f3d3d991/v0-new-project-zigttzfi6fb)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/ZIGtTzFi6fb)
+### 🔒 Least Privilege Access | NIST 800-53 Compliance | Zero Trust Architecture
 
-## Overview
+This project presents a complete IAM (Identity and Access Management) implementation across **AWS** and **Azure**, focused on enforcing **least-privilege access**, aligning with **NIST 800-53**, and integrating **Zero Trust Architecture** to harden cloud environments.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+🚀 **Live Project:** [Click here to explore](https://kzmqk63fhppcxgdf8wgq.lite.vusercontent.net/)
 
-## Deployment
+---
 
-Your project is live at:
+## 📌 Project Overview
 
-**[https://vercel.com/satender-kumars-projects-f3d3d991/v0-new-project-zigttzfi6fb](https://vercel.com/satender-kumars-projects-f3d3d991/v0-new-project-zigttzfi6fb)**
+This initiative strengthens access control mechanisms within cloud infrastructure by:
 
-## Build your app
+- Reducing **excessive permissions** through precise IAM policy configurations
+- Integrating **Zero Trust principles** for resource-level authentication
+- Enhancing **compliance alignment** with frameworks like NIST 800-53
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/ZIGtTzFi6fb](https://v0.dev/chat/projects/ZIGtTzFi6fb)**
+## 🛠️ Key Features
 
-## How It Works
+### ✅ IAM Policy Configuration
+- Configured IAM policies for **50+ AWS S3 buckets and Azure VMs**
+- Enforced **least-privilege access** across user roles and services
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### ✅ Vulnerability Reduction
+- Achieved **30% reduction** in access-related vulnerabilities (Qualys Scan Reports)
+- Blocked public access to sensitive buckets, services, and resources
+
+### ✅ Compliance Alignment
+- Aligned with **NIST 800-53 Access Control** (AC-2, AC-3, AC-6, AC-17, AC-24)
+- Implemented **automated IAM audits** and access lifecycle management
+
+### ✅ Zero Trust Architecture
+- Enforced **MFA**, just-in-time (JIT) access, and conditional resource-level controls
+- Integrated **Privileged Identity Management (PIM)** for Azure elevated accounts
+
+---
+
+## 📊 Security Dashboard Highlights
+
+- **Real-time visualizations** of access control metrics and IAM logs
+- IAM audit logs showing access attempts, denied requests, and policy changes
+- Vulnerability heatmaps for AWS S3, Azure VMs, and RBAC configurations
+
+---
+
+## 📚 Compliance Checklist – NIST 800-53
+
+| Control Code | Description                                      | Status   |
+|--------------|--------------------------------------------------|----------|
+| AC-2         | Automated Account Management                     | ✅       |
+| AC-3         | Logical Access Enforcement                        | ✅       |
+| AC-6         | Least Privilege                                   | ✅       |
+| AC-17        | Secure Remote Access                              | ⏳       |
+| AC-24        | Authorized Access Control Decisions               | ⏳       |
+
+🔁 **Progress:** 60% implemented with audit-ready reports
+
+---
+
+## 📂 Case Studies
+
+### 🧾 S3 Bucket Exposure (AWS)
+A prior misconfiguration allowed public read access to sensitive PII data. Remediation included:
+- Enforcing **S3 Block Public Access**
+- Automated detection using **AWS Config + Lambda**
+
+### 🧾 VM Over-Permission (Azure)
+A contributor role exposed multiple VMs to a compromised service account. Remediation included:
+- Creating **custom RBAC roles**
+- Enforcing **JIT Access** and access reviews using Azure PIM
+
+---
+
+## 🔧 Tools & Technologies Used
+
+- **AWS IAM, S3, Config, Lambda**
+- **Azure RBAC, PIM, Policy**
+- **NIST 800-53 Compliance Controls**
+- **Zero Trust Architecture**
+- **Python for IAM audit automation**
+- **Qualys for Vulnerability Scanning**
+
+---
+
+## 📩 Contact Me
+
+📧 **Email:** [satenderkumar.analyst@gmail.com](mailto:satenderkumar.analyst@gmail.com)  
+🔗 **LinkedIn:** [linkedin.com/in/satender-singh2430](https://linkedin.com/in/satender-singh2430)  
+📅 **Schedule a Call:** [calendly.com/satenderkumar-analyst](https://calendly.com/satenderkumar-analyst)
+
+---
+
+## 📁 Related Projects
+
+- [🔍 SIEM Optimization with Splunk & Sentinel](https://github.com/SatenderKumar3024/siem-threat-detection)
+- [🔧 Compliance Automation Reporting Toolkit (NIST & GDPR)](https://github.com/SatenderKumar3024/compliance-automation)
+
+---
+
+> 💡 *“Security is not a product, but a continuous process. Through IAM hardening and Zero Trust implementation, we strengthen the weakest links before they become open doors.”* – Satender Kumar
