@@ -1,7 +1,6 @@
 # New Project
 # 🔐 CyberGuard Pro: Enterprise IAM Hardening & Zero Trust Enforcement
 
-![CyberGuard Pro Banner](https://kzmkgrouf78p29eh6alv.lite.vusercontent.net/)  
 **Live Demo:** [View Project Live](https://kzmkgrouf78p29eh6alv.lite.vusercontent.net/)
 
 ---
